@@ -1,0 +1,217 @@
+﻿    
+    body{
+            background-color:#ffffff;
+        }
+
+    .content
+    {
+        padding-top:70px;
+    }
+
+    .container-main{
+        min-height:700px;
+        background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url(../images/4.jpg) no-repeat 0px 0px;
+	background-size:cover;
+        padding-bottom:50px;
+    }
+
+    .container-main-event
+    {
+        min-height:700px;
+        padding-bottom:100px;
+    }
+
+    .MaliFont{
+        font-family: 'Muli', sans-serif;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #222;
+      color: white;
+      padding-top: 15px;
+      padding-bottom: 20px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height:auto;}
+    }
+
+    /*Navbar colours*/
+
+.navbar-default {
+    background-color: #006699;
+    font-weight:bold;
+}
+.navbar .nav > li > a {
+    color:#ffffff;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #ffffff;
+    color: #006699;
+}
+
+/*share buttons */
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+
+/* Social Share Event Buttons*/
+/* Reset */
+@import url(//codepen.io/chrisdothtml/pen/ojLzJK.css);
+.social-buttons {
+  height: 60px;
+  margin: auto;
+  font-size: 0;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.social-button {
+  display: inline-block;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  opacity: .99;
+  border-radius: 28%;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-button:before {
+  content: '';
+  background-color: #000;
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  top: 90%;
+  left: -110%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-button .fa {
+  font-size: 38px;
+  vertical-align: middle;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-button.facebook:before {
+  background-color: #3B5998;
+}
+.social-button.facebook .fa {
+  color: #3B5998;
+}
+.social-button.twitter:before {
+  background-color: #3CF;
+}
+.social-button.twitter .fa {
+  color: #3CF;
+}
+.social-button.google:before {
+  background-color: #DC4A38;
+}
+.social-button.google .fa {
+  color: #DC4A38;
+}
+.social-button.pinterest:before {
+  background-color: #BD081C;
+}
+.social-button.pinterest .fa {
+  color: #BD081C;
+}
+.social-button.pocket:before {
+  background-color: #EF4056;
+}
+.social-button.pocket .fa {
+  color: #EF4056;
+}
+.social-button.linkedin:before {
+  background-color: #1985BD;
+}
+.social-button.linkedin .fa {
+  color: #1985BD;
+}
+.social-button.envelope:before {
+  background-color: #ff6600;
+}
+.social-button.envelope .fa {
+  color: #ff6600;
+}
+.social-button:focus:before, .social-button:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-button:focus .fa, .social-button:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.loginp, .registrationp {
+    font-size: 1em;
+    color: #dcffff;
+}
+.formtxt{
+    color: #dcffff;
+}
+
+.txtbox {
+    padding: 0.7em 1em;
+    color: #fff;
+    width: 90.5%;
+    background: transparent;
+    border: 1px solid #d9d9ce;
+    font-size: 0.85em;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.formbtton{
+	width:100%;
+    text-transform: uppercase;
+    background: #aed2e2;
+    outline: none;
+    border: none;
+    cursor: pointer;
+	color: #000;
+	font-size:0.85em;
+	font-weight: 600;
+	padding: 0.7em 0;
+	letter-spacing: 1px;
+}
+
+
